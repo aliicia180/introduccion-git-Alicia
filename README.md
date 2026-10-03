@@ -1,88 +1,57 @@
-# introduccion-git-Alicia
-# Pasos para resolver el ejercicio
+# Ejercicios de Git
 
-## 1. Crear el repositorio
+En este repositorio se encuentran los ejercicios realizados para practicar el uso de Git y GitHub.
 
-Primero se creó un repositorio en GitHub para almacenar el proyecto y poder subir los archivos realizados.
+## Ejercicio 1
 
-## 2. Crear el repositorio local
+### Pasos realizados
 
-Se creó una carpeta llamada `libro` en el ordenador, que se utilizó como repositorio local.
+1. Crear la carpeta del ejercicio y convertirla en un repositorio Git con `git init`.
+2. Crear los archivos indicados en el enunciado.
+3. Comprobar el estado del repositorio con `git status`.
+4. Añadir los archivos al área de preparación con `git add`.
+5. Crear los commits correspondientes mediante `git commit`.
+6. Realizar las modificaciones indicadas en el ejercicio.
+7. Utilizar `.gitignore` para indicar los archivos que Git debe ignorar.
+8. Consultar el historial mediante `git log`.
+9. Comprobar los diferentes estados del repositorio según las indicaciones del ejercicio.
 
-## 3. Inicializar Git
+## Ejercicio 2
 
-Desde Git Bash se accedió a la carpeta del proyecto y se inicializó Git mediante:
+### Pasos realizados
 
+1. Crear la carpeta del ejercicio y inicializar el repositorio con `git init`.
+2. Crear la página web indicada en el enunciado.
+3. Añadir los archivos mediante `git add`.
+4. Crear el primer commit.
+5. Realizar las modificaciones indicadas en el ejercicio.
+6. Añadir nuevamente los cambios.
+7. Crear los commits correspondientes a cada modificación.
+8. Consultar el historial con `git log` para comprobar los cambios realizados.
 
-git init
+## Ejercicio 3
 
+### Pasos realizados
 
-## 4. Comprobar el estado del repositorio
+1. Crear la carpeta `libro` e inicializar el repositorio Git.
+2. Crear `indice_libros.txt`.
+3. Crear la carpeta `capitulos` y añadir los capítulos indicados.
+4. Crear y configurar el archivo `.gitignore`.
+5. Comprobar qué archivos son ignorados mediante `git status`.
+6. Añadir los archivos que deben ser controlados por Git.
+7. Crear los commits correspondientes.
+8. Realizar las modificaciones, eliminaciones y cambios de nombre indicados en el ejercicio.
+9. Utilizar `git rm` y `git mv` cuando corresponde.
+10. Modificar el último commit mediante `git commit --amend` cuando se indica.
+11. Consultar el historial con `git log`.
+12. Conectar el repositorio local con GitHub.
+13. Subir el contenido mediante:
 
-Se comprobó el estado de los archivos utilizando:
-
-git status
-
-
-Esto permite saber qué archivos han sido modificados, añadidos o están pendientes de incluir en el siguiente commit.
-
-## 5. Añadir los archivos
-
-Se añadieron los archivos del proyecto al área de preparación mediante:
-
-
-git add .
-
-
-## 6. Crear el primer commit
-
-Una vez añadidos los archivos, se creó un commit para guardar los cambios:
-
-
-git commit -m "Primer commit"
-
-
-## 7. Conectar el repositorio local con GitHub
-
-Se vinculó el repositorio local con el repositorio creado en GitHub mediante el repositorio remoto `origin`.
-
-## 8. Subir los archivos a GitHub
-
-Finalmente, se subieron los archivos al repositorio remoto utilizando:
-
-
+```bash
 git push -u origin master
-
-
-De esta forma, los archivos del repositorio local quedaron disponibles en GitHub.
-
-## 9. Comprobar el resultado
-
-Se accedió al repositorio de GitHub para comprobar que los archivos se habían subido correctamente.
-
-## 10. Añadir el documento de pasos
-
-Después se creó este documento `README.md` para explicar los pasos realizados para resolver el ejercicio.
-
-Una vez guardado el documento, se añadieron los nuevos cambios:
-
-
-git add .
-
-
-Se creó un nuevo commit:
-
-git commit -m "Añadir documento con los pasos"
-
-
-Y finalmente se subieron los cambios a GitHub:
-
-
-git push
-
+```
 
 ## Repositorio
 
-El ejercicio y el documento con los pasos se encuentran en el siguiente repositorio de GitHub:
+El trabajo completo se encuentra en este repositorio de GitHub.
 
-https://github.com/aliicia180/introduccion-git-Alicia
